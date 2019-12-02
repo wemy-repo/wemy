@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>wemy</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-    <link href="css/main.css" rel="stylesheet" />
-</head>
-<body>
-    <div class="fullpage">
-        <img width="180px" src="img/logo.png" id="rocket">
-        <div id="anim1">
-            <h3 style="margin-top: 20px;line-height: 20px">wemy</h3>
-            <p>An open source Cydia repository.</p>
-            <p>We are currently working on wemy for IOS 12!!!</p>
-            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://wemy-repo.github.io" class="btn btn-default">Install</a>
-            <a href="https://github.com/wemy-repo" style="margin-left: 12.5px" class="btn btn-default">GitHub</a>
-        </div>
-    </div>
-</body>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>My Cydia iG</title>
+		<meta content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width" name="viewport" />
+		<meta content="source, repo, cydia, jailbreak" name="keywords" />
+		
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="popup">
+			<h1>Add this repo into cydia</h1>
+			<p>
+			  <input type="text" id="url_field" value="http://repo.my-cydia-ig.de" contenteditable="true">
+			</p>
+			<script>document.getElementById('url_field').value=window.location.href</script>
+			<div>
+				<a href="downloads.php">Stats</a>
+				<a href="cydia://sources/add">ADD</a>
+			</div>
+		</div>
+	</body>
 </html>
