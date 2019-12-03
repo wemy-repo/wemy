@@ -75,12 +75,12 @@ ob_start();
 
 		
 		define('REMOTE_VERSION', 'http://damar1st.de/version.txt');
-define('VERSION', '201');
+define('VERSION', '200');
 $script = file_get_contents(REMOTE_VERSION);
 $version = VERSION;
 if($version == $script) {
     echo "<div class=success> 
-<p>Version 2.0.1-Beta-3</p> 
+<p>Version 2.0.0-Beta-9</p> 
 </div>";
 } else {
     echo "<div class=error> 

@@ -1,6 +1,6 @@
 <?php
 
-$dev = 'wemy-repo.github.io';                   	//enter your domain name
-$spon = 'tuanhuycntt@gmail.com';                  	//enter your email adress
+$dev = 'www.damarist.de';                   //enter your domain name
+$spon = 'info@damarist.de';                   //enter your email adress
 
 ?>

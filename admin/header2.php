@@ -76,12 +76,12 @@ ob_start();
 
 		
 		define('REMOTE_VERSION', 'http://damar1st.de/version.txt');
-define('VERSION', '201');
+define('VERSION', '200');
 $script = file_get_contents(REMOTE_VERSION);
 $version = VERSION;
 if($version == $script) {
     echo "<div class=success> 
-<p>Version 2.0.1-Beta-3</p> 
+<p>Version 2.0.0-Beta-9</p> 
 </div>";
 } else {
     echo "<div class=error> 
@@ -152,10 +152,10 @@ if($version == $script) {
                      
                         <li class="nav-header hidden-tablet style1">Protected Area </li>
 						<li class="nav-header hidden-tablet"> </li>
-                        <li> <span class="hidden-tablet">Upload Deb's</span></li>
-                        <li><span class="hidden-tablet"> Rebuild Packages File </span></li>
-                        <li><span class="hidden-tablet"> Create Depiction</span></li>
-						<li><span class="hidden-tablet">Protection</span></li>
+                        <li><a class="ajax-link" href="uupload.php"><i class="icon-edit"></i><span class="hidden-tablet"> Upload Deb's</span></a></li>
+                        <li><a class="ajax-link" href="uBlank2.php"><i class="icon-folder-open"></i><span class="hidden-tablet"> Rebuild Packages File </span></a></li>
+                        <li><a class="ajax-link" href="../premium/depi/ucreate.php"><i class="icon-edit"></i><span class="hidden-tablet"> Create Depiction</span></a></li>
+						<li><a class="ajax-link" href="protect.php"><i class="icon-edit"></i><span class="hidden-tablet">Protection</span></a></li>
 						<li><span class="nav-header hidden-tablet style1">Logout</span> </li>
 						<li><a href="login.php?act=logout"><i class="icon-lock"></i><span class="hidden-tablet"> Logout Page</span></a></li>
 					</ul>
