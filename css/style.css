@@ -36,9 +36,9 @@ a:hover, a:focus {
     position: fixed;
     left: 0px;
     top: 0px;
-    width: 300px;
+    width: 250px;
     height: 100%;
-    background-color: #2A0A29;
+    background-color: #231649;
 }
 .logo {
     text-align: center;
@@ -66,7 +66,7 @@ a:hover, a:focus {
     height: 50px;
 }
 .left-content ul li.active {
-    background-color: #FF0000;
+    background-color: #e77f29;
 }
 .left-content ul li.active a span {
     border-color: #22313F;
@@ -96,7 +96,7 @@ a:hover, a:focus {
     bottom: 0px;
     left: 0px;
     width: 100%;
-    background-color:#2A0A29;
+    background-color:#0c0a2a;
     padding: 10px;
     text-align: right;
     color: #fff;
@@ -116,7 +116,7 @@ a:hover, a:focus {
     display: block;
 }
 .right-side {
-    padding-left: 300px;
+    padding-left: 250px;
 }
 .right-content {
     padding: 50px;
