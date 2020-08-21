@@ -185,15 +185,16 @@ label #cancel{
   margin-left: 250px;
 }
 section{
-  background: url(bg.jpeg) no-repeat;
+  background: url(bg1.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
   transition: all .5s;
   margin-left: -250px;
 }
-/*END*/
 body{
-  /*background-image: url(bg.jpeg);*/
+  background: url(bg.jpeg);
 }
+
+/*END*/
 
