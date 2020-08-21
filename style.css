@@ -38,6 +38,7 @@
   left: -250px;
   background: #1b1b1b;
   transition: left 0.4s ease;
+  opacity: 70%;
 }
 .sidebar.show{
   left: 0px;
@@ -48,7 +49,7 @@
   font-weight: 600;
   line-height: 65px;
   text-align: center;
-  background: #1e1e1e;
+  background: #1b1b1b;
   letter-spacing: 1px;
 }
 nav ul{
@@ -59,10 +60,10 @@ nav ul{
 }
 nav ul li{
   line-height: 60px;
-  border-top: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid #ffffff1a;
 }
 nav ul li:last-child{
-  border-bottom: 1px solid rgba(255,255,255,0.05);
+  border-bottom: 1px solid #ffffff0d;
 }
 nav ul li a{
   position: relative;
@@ -122,23 +123,36 @@ nav ul li a span{
 nav ul li a span.rotate{
   transform: translateY(-50%) rotate(-180deg);
 }
+/* Sửa text */
 .content{
   position: absolute;
-  top: 50%;
+  top: 17%;
   left: 50%;
   transform: translate(-50%,-50%);
-  color: #202020;
+  color: #ffffff;
   z-index: -1;
-  text-align: center;
+  text-align: left;
+  font-size: 12px;
 }
 .content .header{
   font-size: 45px;
-  font-weight: 600;
+  font-weight: 100%;
 }
 .content p{
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
 }
+.content a:link {
+  color: #00d9ff;
+}
+.content h1 {
+  font-size: 25px;
+  color: #4dc54d;
+  text-align: center;
+}
+
+/* End sửa text */
+
 nav .sidebar.show{
   margin-left: 250px;
 }
@@ -160,6 +174,7 @@ label #btn{
   color: white;
   padding: 6px 12px;
   transition: all .5s;
+  opacity: 50%;
 }
 label #cancel{
   z-index: 1111;
@@ -169,6 +184,7 @@ label #cancel{
   color: white;
   padding: 6px 12px;
   transition: all .5s ease;
+  opacity: 50%;
 }
 #check:checked ~ .sidebar{
   left: 0;
@@ -193,8 +209,7 @@ section{
   margin-left: -250px;
 }
 body{
-  background: url(bg.jpeg);
+  background-image: url(bg.jpeg);
 }
-
 /*END*/
 
